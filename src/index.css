@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import "tailwindcss";
+
+@theme{
+  /* font types */
+  --font-heading:"Space Grotesk", sans-serif;
+  --font-body:"Inter", sans-serif;
+  --font-nav-title:"Chakra Petch", sans-serif;
+
+  /* colors */
+  --color-primary:#070707;
+  --color-secondary:#FFFFFF;
+
+  /* border radius */
+  --radius-card:32px;
+
+  /* shadow type */
+  --shadow-card:0px 6px 8px rgb(0,0,0,0.47);
+  --shadow-navbar:0px 7px 12px rgb(0,0,0,0.55);
+  --shadow-footer:0px -7px 12px rgb(0,0,0,0.55);
+
+  /* text sizes */
+  --text-hero-banner:96px;
+  --text-hero-sub:48px;
+  --text-nav-title:70px;
+  --text-nav-item:36px;
+
+  --logo-gap:10px;
+  --nav-padding:10px;
+}
+
+*{
+  box-sizing:border-box;
+  font-family:"Space Grotesk", sans-serif;
+}
+
+.logo{
+  transform:rotateZ(-90deg);
+}
+
+.profile{
+  transform:rotateZ(90deg);
+}
+
+.exclude{
+  background: url("src/assets/profile.png");
+  overflow:hidden;
+}
+
