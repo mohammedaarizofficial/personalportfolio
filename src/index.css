@@ -4,6 +4,14 @@
 
 @import "tailwindcss";
 
+@import "tw-animate-css";
+
+@import "shadcn/tailwind.css";
+
+@import "@fontsource-variable/geist";
+
+@custom-variant dark (&:is(.dark *));
+
 @theme{
   /* font types */
   --font-heading:"Space Grotesk", sans-serif;
@@ -11,8 +19,9 @@
   --font-nav-title:"Chakra Petch", sans-serif;
 
   /* colors */
-  --color-primary:#070707;
+  --color-primary:#000000;
   --color-secondary:#FFFFFF;
+  --color-tooltip:#9B9CA2;
 
   /* border radius */
   --radius-card:32px;
@@ -50,4 +59,3 @@
   background: url("src/assets/profile.png");
   overflow:hidden;
 }
-
