@@ -5,7 +5,7 @@ import aperture from "../assets/Aperture.png";
 
 function Worksection(){
     return(
-        <div className="flex flex-col justify-items-center mt-[350px]">
+        <div className="flex flex-col justify-items-center mt-[350px]" id="work">
             <div className="font-heading text-nav-title font-medium text-center">WORK</div>
             <div className="flex gap-[50px] justify-center px-[50px] pt-[100px]">
                 <Projectcard image={theDaily} title="The Daily." description="Everday NewsApp" link="https://newsapp-three-zeta.vercel.app/"/>

@@ -6,7 +6,7 @@ import programming from "../assets/programmingwithjscert.png";
 
 function Aboutmesection(){
     return(
-        <div className="flex flex-col gap-[10px] items-center py-[108px] mb-[100px] mt-[100px]">
+        <div className="flex flex-col gap-[10px] items-center py-[108px] mb-[100px] mt-[100px]" id="aboutme">
             <div className="font-heading text-nav-title">
                 ABOUT ME
             </div>

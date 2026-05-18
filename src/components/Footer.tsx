@@ -10,7 +10,7 @@ import mail from "../assets/mail.png";
 
 function Footer(){
     return(
-        <div className="flex flex-row px-[37px] py-[10px] shadow-footer justify-center gap-[750px]">
+        <div className="flex flex-row px-[37px] py-[10px] shadow-footer justify-center gap-[750px]" id="contact">
             <div className="font-heading text-hero-sub font-medium">CONTACT ME</div>
             <div className="flex jusitfy-center gap-[61px] p-[10px] items-center">
                 <Tooltip>
