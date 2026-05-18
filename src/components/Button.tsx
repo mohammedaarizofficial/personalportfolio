@@ -1,4 +1,5 @@
 import link from "../assets/square-arrow-out-up-right.png";
+import resume from "../../public/MohammedAarizResumeCommon.pdf";
 
 interface ButtonProps{
     variant:string
@@ -18,7 +19,7 @@ function Button({variant,content}:ButtonProps){
         )
     }else{
         return(
-            <a href="public/MohammedAarizResume.pdf" download className={`text-[24px] font-medium px-[30px] rounded-[54px] cursor-pointer ${variantType}`}>{content}</a>
+            <a href={resume} download className={`text-[24px] font-medium px-[30px] rounded-[54px] cursor-pointer ${variantType}`}>{content}</a>
         )
     }
 }
