@@ -8,10 +8,10 @@ function Navbar(){
                 <div className="text-nav-title font-nav-title text-center font-semibold" style={{width:"196px", height:"91px"}}>AARIZ</div>
             </div>
             <div className="flex flex-row flex-1 justify-end gap-[53px] items-center py-[10px] pe-[36px]">
-                <div className="text-nav-item font-heading font-medium cursor-pointer">home</div>
-                <div className="text-nav-item font-heading font-medium cursor-pointer">work</div>
-                <div className="text-nav-item font-heading font-medium cursor-pointer">about me</div>
-                <div className="text-nav-item font-heading font-medium cursor-pointer">contact</div>
+                <div className="text-nav-item font-heading font-medium cursor-pointer hover:border-b-3 transition-all duration-75 ease-in-out">home</div>
+                <div className="text-nav-item font-heading font-medium cursor-pointer hover:border-b-3 transition-all duration-75 ease-in-out">work</div>
+                <div className="text-nav-item font-heading font-medium cursor-pointer hover:border-b-3 transition-all duration-75 ease-in-out">about me</div>
+                <div className="text-nav-item font-heading font-medium cursor-pointer hover:border-b-3 transition-all duration-75 ease-in-out">contact</div>
                 <Button 
                     variant="primary"
                     content="Resume"
