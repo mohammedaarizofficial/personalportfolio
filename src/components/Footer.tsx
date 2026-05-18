@@ -3,6 +3,10 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import insta from "../assets/instagram-fill.png";
+import linkedin from "../assets/linkedin-fill.png";
+import github from "../assets/github.png";
+import mail from "../assets/mail.png";
 
 function Footer(){
     return(
@@ -12,7 +16,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="https://www.instagram.com/mohd.aarizzz/?hl=en" target="_blank" className="cursor-pointer">
-                            <img src="src/assets/instagram-fill.png" alt="instagram" width="30" height="30"/>
+                            <img src={insta} alt="instagram" width="30" height="30"/>
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">
@@ -23,7 +27,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="mailto:mohd.aariz.official@gmail.com" target="_blank" className="cursor-pointer">
-                            <img src="src/assets/mail.png" alt="mail to Mohammed Aariz" width="30" height="30" />
+                            <img src={mail} alt="mail to Mohammed Aariz" width="30" height="30" />
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">
@@ -34,7 +38,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="https://www.linkedin.com/in/mohammedaariz/" target="_blank" className="cursor-pointer">
-                            <img src="src/assets/linkedin-fill.png" alt="LinkedIn" width="30" height="30" />
+                            <img src={linkedin} alt="LinkedIn" width="30" height="30" />
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">
@@ -45,7 +49,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="https://github.com/mohammedaarizofficial" target="_blank" style={{width:'30px', height:"30px"}} className="cursor-pointer">
-                            <img src="src/assets/github.png" alt="Github" width="30" height="30" />
+                            <img src={github} alt="Github" width="30" height="30" />
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">

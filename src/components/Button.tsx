@@ -1,3 +1,5 @@
+import link from "../assets/square-arrow-out-up-right.png";
+
 interface ButtonProps{
     variant:string
     content:string
@@ -11,7 +13,7 @@ function Button({variant,content}:ButtonProps){
                 <div className={`text-[15px] font-medium`}>
                     {content}
                 </div>
-                <img src="src/assets/square-arrow-out-up-right.png" alt="link" className="invert" style={{width:"12px", height:"12px"}} />
+                <img src={link} alt="link" className="invert" style={{width:"12px", height:"12px"}} />
             </div>
         )
     }else{
