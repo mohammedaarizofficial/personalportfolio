@@ -1,73 +1,148 @@
-# React + TypeScript + Vite
+# Mohammed Aariz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Full-Stack Developer • F1 Enthusiast • Human
 
-Currently, two official plugins are available:
+Building futuristic, interactive, and performance-driven digital experiences with modern web technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Link to portfolio -> https://personalportfolio-pi-puce.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 About Me
 
-## Expanding the ESLint configuration
+I’m a Full-Stack Developer passionate about crafting immersive digital experiences that combine clean UI, smooth interactions, and scalable backend systems.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+I enjoy building modern applications ranging from finance trackers and social platforms to AI-powered systems and interactive user experiences.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+My experience includes developing REST APIs and internal software solutions during internships at:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Ministry of Human Resources and Emiratisation (UAE)
+- ADNOC
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Outside development, I’m inspired by:
+- Formula 1
+- Futuristic UI/UX
+- Motion Design
+- Performance-focused frontend engineering
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 🛠️ Tech Stack
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Frontend
+- ReactJS
+- TypeScript
+- Tailwind CSS
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+## Backend
+- NodeJS
+- ExpressJS
+- REST APIs
+- JWT Authentication
+
+## Database
+- MongoDB
+- Mongoose
+- Firebase
+
+## Tools & Platforms
+- Git & GitHub
+- Postman
+- Figma
+- Vercel
+- Cloudinary
+
+---
+
+# ⚡ Featured Projects
+
+## 🌌 Horizon
+An interactive tourism platform integrating:
+- AR/VR experiences
+- Gamification
+- Dynamic leaderboards
+- Community interaction
+
+### Stack
+React Native • Firebase • Mapbox • Blender • ViroReact
+
+---
+
+## 🧠 Modus Mapping
+An AI-assisted criminal investigation platform designed to help identify criminal connections using:
+- Neo4j graph databases
+- Machine learning
+- AI summarization
+
+### Stack
+Neo4j • Machine Learning • Ollama • Full-Stack Web Development
+
+---
+
+## 💰 Finance Tracker
+A modern expense management application with:
+- Expense categorization
+- Dashboard analytics
+- Authentication
+- Charts and visualizations
+
+### Stack
+React • TypeScript • Tailwind • NodeJS • MongoDB
+
+---
+
+## 📱 gortiGram
+A social media platform where photos communicate stories.
+
+### Features
+- Authentication
+- Posts
+- Likes & comments
+- Follow system
+- Profile editing
+
+### Stack
+React • Redux Toolkit • Chakra UI • NodeJS • MongoDB
+
+---
+
+# 📈 Currently Learning
+
+- Advanced TailwindCSS
+- Motion Design
+- Scalable Frontend Architecture
+- UI/UX Systems
+- Performance Optimization
+
+---
+
+# 🌐 Connect With Me
+
+- LinkedIn
+- GitHub
+- Instagram
+
+📫 Email: yourmail@example.com
+
+---
+
+# ⚙️ Portfolio
+
+Currently building a futuristic personal portfolio focused on:
+- Glassmorphism
+- Interactive UI
+- Motion & transitions
+- Modern frontend architecture
+
+---
+
+# 🏎️ Fun Fact
+
+I treat frontend performance like an F1 pit stop:
+fast, precise, and optimized.
+
+---
