@@ -13,7 +13,7 @@ function Projectcard({image,title,description,link}:ProjectcardProps){
     return(
         <div className="px-[15px] py-[13px] mb-[50px] border-[3px] rounded-card flex flex-col shadow-card gap-[21px] border-primary
         hover:scale-105 hover:-translate-y-2 transition duration-300 ease-in-out hover:shadow-hover">
-            <img src={image} width="383.35" height="216.53"/>
+            <img src={image} width="383.35" height="216.53" loading="lazy"/>
             <div className={`grid grid-cols-2 ${FinanceTrackerPadding}`}>
                 <div className="flex flex-col font-heading text-[32px] justify-self-start">
                     <div className={`font-heading ${FinanceTrackerTitle}`}>{title}</div>
