@@ -13,13 +13,13 @@ function App() {
     <div className="min-h-screen flex flex-col">
         <Navbar />
         <Hero />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense>
         <Worksection />
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense>
         <Aboutmesection />
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense>
         <Footer />
       </Suspense>
     </div>
