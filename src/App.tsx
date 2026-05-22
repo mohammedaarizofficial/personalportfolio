@@ -10,7 +10,7 @@ const Footer = lazy(()=>import('./components/Footer'));
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col" style={{minWidth:'370px'}}>
         <Navbar />
         <Hero />
       <Suspense>

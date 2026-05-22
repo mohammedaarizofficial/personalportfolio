@@ -10,9 +10,9 @@ import mail from "../assets/mail.png";
 
 function Footer(){
     return(
-        <div className="flex flex-row px-[37px] py-[10px] shadow-footer justify-center gap-[750px]" id="contact">
-            <div className="font-heading text-hero-sub font-medium">CONTACT ME</div>
-            <div className="flex jusitfy-center gap-[61px] p-[10px] items-center">
+        <div className="flex flex-row lg:px-[37px] lg:py-[10px] shadow-footer justify-center lg:gap-[750px]" id="contact">
+            <div className="font-heading lg:text-hero-sub font-medium">CONTACT ME</div>
+            <div className="flex jusitfy-center lg:gap-[61px] lg:p-[10px] items-center">
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="https://www.instagram.com/mohd.aarizzz/?hl=en" target="_blank" className="cursor-pointer">

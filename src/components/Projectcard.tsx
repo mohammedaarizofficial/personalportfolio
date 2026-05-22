@@ -8,18 +8,18 @@ interface ProjectcardProps{
 }
 
 function Projectcard({image,title,description,link}:ProjectcardProps){
-    const FinanceTrackerTitle = title==="FinanceTracker"?"text-[25px] font-medium":"text-[32px] font-medium";
-    const FinanceTrackerPadding = title==="FinanceTracker"?"px-[10px] pt-[8px]":"px-[9px]";
+    const FinanceTrackerTitle = title==="FinanceTracker"?"lg:text-[25px] font-medium":"lg:text-[32px] font-medium";
+    const FinanceTrackerPadding = title==="FinanceTracker"?"lg:px-[10px] lg:pt-[8px]":"lg:px-[9px]";
     return(
-        <div className="px-[15px] py-[13px] mb-[50px] border-[3px] rounded-card flex flex-col shadow-card gap-[21px] border-primary
-        hover:scale-105 hover:-translate-y-2 transition duration-300 ease-in-out hover:shadow-hover">
+        <div className="lg:px-[15px] lg:py-[13px] lg:mb-[50px] lg:border-[3px] lg:rounded-card flex flex-col shadow-card lg:gap-[21px] lg:border-primary
+        lg:hover:scale-105 lg:hover:-translate-y-2 lg:transition lg:duration-300 lg:ease-in-out lg:hover:shadow-hover">
             <img src={image} width="383.35" height="216.53" loading="lazy"/>
             <div className={`grid grid-cols-2 ${FinanceTrackerPadding}`}>
-                <div className="flex flex-col font-heading text-[32px] justify-self-start">
+                <div className="flex flex-col font-heading lg:text-[32px] lg:justify-self-start">
                     <div className={`font-heading ${FinanceTrackerTitle}`}>{title}</div>
-                    <div className="font-body text-[20px]">{description}</div>
+                    <div className="font-body lg:text-[20px]">{description}</div>
                 </div>
-                <div className="self-center justify-self-end">
+                <div className="lg:self-center lg:justify-self-end">
                     <a href={link} target="_blank">
                         <Button 
                             variant="secondary"

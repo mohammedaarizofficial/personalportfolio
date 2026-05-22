@@ -6,28 +6,28 @@ import programming from "../assets/programmingwithjscert.png";
 
 function Aboutmesection(){
     return(
-        <div className="flex flex-col gap-[10px] items-center py-[108px] mb-[100px] mt-[100px]" id="aboutme">
-            <div className="font-heading text-nav-title">
+        <div className="flex flex-col lg:gap-[10px] items-center lg:py-[108px] lg:mb-[100px] lg:mt-[100px]" id="aboutme">
+            <div className="font-heading lg:text-nav-title">
                 ABOUT ME
             </div>
-            <div className="grid grid-cols-2 px-[43px] py-[10px]">
+            <div className="grid grid-cols-2 lg:px-[43px] lg:py-[10px]">
                 <div className="relative">
-                    <img src={adnoc} alt="Adnoc internship" width="263.33" height="344.24" loading="lazy" className="absolute top-[240px] left-[70px] logo border-2 border-primary z-10 hover:z-50 hover:scale-180 transition-all duration-300 ease-in-out will-change-transform hover:translate-x-[160px] hover:-translate-y-[100px] cursor-pointer"/>
+                    <img src={adnoc} alt="Adnoc internship" width="263.33" height="344.24" loading="lazy" className="absolute lg:top-[240px] lg:left-[70px] logo lg:border-2 lg:border-primary lg:z-10 lg:hover:z-50 lg:hover:scale-180 lg:transition-all lg:duration-300 lg:ease-in-out lg:will-change-transform lg:hover:translate-x-[160px] lg:hover:-translate-y-[100px] cursor-pointer"/>
 
                     <img src={intro} alt="Introduction to front-end Certificate" width="252" height="196" loading="lazy"
-                    className="absolute top-[55px] left-[96px] border-2 z-0 border-primary hover:z-50 hover:scale-250 hover:translate-x-[140px] hover:translate-y-[200px] transition-all duration-300 ease-in-out will-change-transform cursor-pointer"/>
+                    className="absolute lg:top-[55px] lg:left-[96px] lg:border-2 lg:z-0 lg:border-primary lg:hover:z-50 lg:hover:scale-250 lg:hover:translate-x-[140px] lg:hover:translate-y-[200px] lg:transition-all lg:duration-300 lg:ease-in-out lg:will-change-transform cursor-pointer"/>
 
                     <img src={sharjah} alt="Ministry of Human Resources and Emiratisation internship" width="297" height="420" loading="lazy"
-                    className="absolute top-[55px] left-[406px] border-2 z-10 border-primary hover:z-50 hover:scale-150 hover:-translate-x-[160px] hover:translate-y-[70px]
-                    transition-all duration-300 ease-in will-change-transform cursor-pointer"/>
+                    className="absolute lg:top-[55px] lg:left-[406px] lg:border-2 lg:z-10 lg:border-primary lg:hover:z-50 lg:hover:scale-150 lg:hover:-translate-x-[160px] lg:hover:translate-y-[70px]
+                    lg:transition-all lg:duration-300 lg:ease-in lg:will-change-transform cursor-pointer"/>
 
                     <img src={programming} alt="Programming with JavaScript Certificate" width="209" height="162" loading="lazy"
-                    className="absolute top-[200px] left-[303px] border-2 border-primary hover:z-50 hover:scale-300 transition-all duration-300 ease-in-out will-change-transform hover:-translate-x-[50px] hover:translate-y-[50px] cursor-pointer"/>
+                    className="absolute lg:top-[200px] lg:left-[303px] lg:border-2 lg:border-primary lg:hover:z-50 lg:hover:scale-300 lg:transition-all lg:duration-300 lg:ease-in-out lg:will-change-transform lg:hover:-translate-x-[50px] lg:hover:translate-y-[50px] cursor-pointer"/>
 
                     <img src={reactBasics} alt="React Basics Certificate" width="347" height="267" loading="lazy"
-                    className="absolute top-[430px] left-[250px] border-2 z-0 border-primary hover:z-50 hover:scale-180 hover:-translate-x-[50px] hover:-translate-y-[240px] transition-all duration-300 ease-in-out will-change-transform cursor-pointer"/>
+                    className="absolute lg:top-[430px] lg:left-[250px] lg:border-2 lg:z-0 lg:border-primary lg:hover:z-50 lg:hover:scale-180 lg:hover:-translate-x-[50px] lg:hover:-translate-y-[240px] lg:transition-all lg:duration-300 lg:ease-in-out lg:will-change-transform cursor-pointer"/>
                 </div>
-                <div className="font-heading text-[24px] font-regular leading-[48px] text-center">I’m a Full-Stack Developer focused on building modern, interactive, and performance-driven digital experiences.<br/><br/>
+                <div className="font-heading lg:text-[24px] font-regular lg:leading-[48px] text-center">I’m a Full-Stack Developer focused on building modern, interactive, and performance-driven digital experiences.<br/><br/>
 
 From real-time chat platforms to finance trackers and news applications, I enjoy creating products that combine clean design with practical functionality.<br/><br/>
 
