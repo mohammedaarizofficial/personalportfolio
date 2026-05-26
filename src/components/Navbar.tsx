@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 function Navbar(){
     return(
         <div className="flex flex-row shadow-navbar lg:pl-6.25 lg:py-[10px] lg:gap-[1px] w-full justify-center lg:h-[121px] h-[50px]" id="home">
-            <div className="flex flex-row lg:gap-[30px] justify-self-start items-center cursor-pointer lg:w-[345.64px] pl-[5px]">
+            <div className="flex flex-row lg:gap-[30px] gap-[3px] justify-self-start items-center cursor-pointer lg:w-[345.64px] pl-[5px]">
                 <img src={logo} alt="Logo" className="
                 w-[30.03px] h-[25.61px]
                 lg:w-[150px] lg:h-[100px] lg:pl-[5px]"/>
