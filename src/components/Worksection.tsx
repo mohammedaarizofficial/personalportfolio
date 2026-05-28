@@ -8,9 +8,9 @@ const Projectcard = lazy(()=>import("./Projectcard"));
 
 function Worksection(){
     return(
-        <div className="flex flex-col justify-items-center lg:mt-[80px] mt-[40px]" id="work">
+        <div className="flex flex-col justify-items-center " id="work">
             <div className="font-heading lg:text-nav-title font-medium text-center">WORK</div>
-            <div className="grid grid-cols-2 gap-[10px] mt-[25px] lg:flex lg:gap-[50px] justify-center justify-items-center lg:px-[50px] lg:pt-[100px]">
+            <div className="grid grid-cols-2 gap-[10px] sm:flex lg:gap-[50px] justify-center justify-items-center lg:px-[50px] lg:pt-[100px]">
                 <Suspense fallback={<div>Loading...</div>}>
                     <Projectcard image={theDaily} title="The Daily." description="Everday NewsApp" link="https://newsapp-three-zeta.vercel.app/"/>
                 </Suspense>

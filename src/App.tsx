@@ -1,11 +1,11 @@
 import './App.css'
 import closeBtn from "../src/assets/circle-close.png";
 import { useSidebar } from './context/SidebarContext';
-// import {lazy, Suspense} from "react";
+import {lazy, Suspense} from "react";
 import Navbar from './components/Navbar';
-// import Hero from './components/Hero';
+import Hero from './components/Hero';
 
-// const Worksection = lazy(() => import("./components/Worksection"));
+const Worksection = lazy(() => import("./components/Worksection"));
 // const Aboutmesection = lazy(()=>import("./components/Aboutmesection"));
 // const Footer = lazy(()=>import('./components/Footer'));
 
@@ -36,11 +36,11 @@ function App() {
                 <img src={closeBtn} alt="close" width="20px" height="20px" onClick={()=>setSidebarToggle(false)} className="cursor-pointer"/>
               </div>
         </div>
-        {/* <Hero /> */}
-      {/* <Suspense>
+        <Hero />
+      <Suspense>
         <Worksection />
       </Suspense>
-      <Suspense>
+      {/* <Suspense>
         <Aboutmesection />
       </Suspense>
       <Suspense>

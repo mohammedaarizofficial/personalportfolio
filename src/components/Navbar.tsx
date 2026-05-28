@@ -15,7 +15,7 @@ function Navbar(){
             <div className="flex flex-row justify-self-start items-center cursor-pointer">
                 <img src={logo} alt="Logo" className="
                 w-[10vw] h-[7.5vw] lg:pl-[5px]"/>
-                <div className="text-nav-title font-nav-title text-center font-semibold">AARIZ</div>
+                <div className="text-[clamp(1rem,4.5vw,10rem)] font-nav-title text-center font-semibold">AARIZ</div>
             </div>
             <div className="hidden flex-row justify-center gap-[6vw]
             sm:flex ">
