@@ -35,9 +35,9 @@
   /* text sizes */
   --text-hero-banner:96px;
   --text-hero-sub:48px;
-  --text-nav-title:70px;
-  --text-nav-item:36px;
-  --text-sm-nav-item:20px;
+  --text-nav-title:4.5vw;
+  --text-nav-item:clamp(1.5rem, 2vw, 2.25rem);
+  --text-sm-nav-item:1.25rem;
 
   --logo-gap:10px;
   --nav-padding:10px;
