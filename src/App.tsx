@@ -5,6 +5,7 @@ import {lazy, Suspense} from "react";
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 
+
 const Worksection = lazy(() => import("./components/Worksection"));
 // const Aboutmesection = lazy(()=>import("./components/Aboutmesection"));
 // const Footer = lazy(()=>import('./components/Footer'));
@@ -20,9 +21,9 @@ function App() {
         <Navbar />
         <div className={`
           fixed inset-0
-          bg-black/20 backdrop-blur-sm transition-opacity duration-300 z-[5]
+          bg-black/20 backdrop-blur-sm transition-opacity duration-300 z-40
           ${sidebarToggle?'opacity-100':'opacity-0 pointer-events-none'}`}/>
-        <div className={`grid grid-cols-[auto_1fr] z-10 bg-white w-auto gap-3 fixed top-[0px] right-[0px] p-4 h-dvh
+        <div className={`grid grid-cols-[auto_1fr] z-50 bg-white w-auto gap-3 fixed top-[0px] right-[0px] p-4 h-dvh
             ${sidebarToggle?'translate-x-0':'translate-x-full'} transition-transform duration-1000 ease-in-out
             md:flex
             lg:flex`}>
