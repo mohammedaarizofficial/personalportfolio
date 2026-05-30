@@ -13,7 +13,7 @@ const SLIDES = [
 
 function Aboutmesection(){
     return(
-        <div className="flex flex-col lg:gap-[10px] items-center mt-[100px]" id="aboutme">
+        <div className="flex flex-col lg:gap-[10px] items-center mt-[40px]" id="aboutme">
             <div className="font-heading text-[clamp(1.25rem,4.5vw,10rem)] mb-6">
                 ABOUT ME
             </div>

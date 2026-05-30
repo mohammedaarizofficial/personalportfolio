@@ -31,7 +31,7 @@ function Worksection(){
             </div>
 
 
-            <div id="default-carousel" className="relative w-full sm:hidden px-5 mt-2" data-carousel="slide">
+            <div id="default-carousel" className="relative w-full sm:hidden px-5 my-8" data-carousel="slide">
 
                 <div className="relative aspect-video overflow-hidden rounded-lg shadow-card px-3">
                     {/* <!-- Item 1 --> */}
@@ -68,7 +68,7 @@ function Worksection(){
                 </button>
             </div>
 
-            <div className="font-heading text-center text-[clamp(0.625rem,3vw,6rem)] xs:leading-[25px] my-5 lg:text-nav-item lg:px-7">
+            <div className="font-heading text-center text-[clamp(0.625rem,3vw,6rem)] xs:leading-[25px] lg:text-nav-item  px-3 lg:px-7">
                 There are many other projects done by me, But these projects focus mainly on the stack which I work on and built End-to-End by me. Head on to my GitHub profile to find more projects done by 
                 <a href="https://github.com/mohammedaarizofficial" target="_blank" className="underline text-blue-600"> me.</a>
             </div>
