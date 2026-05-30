@@ -68,7 +68,7 @@ function Worksection(){
                 </button>
             </div>
 
-            <div className="font-heading text-center text-[clamp(0.625rem,3vw,6rem)] xs:leading-[25px] px-3 my-5 lg:text-nav-item lg:px-5">
+            <div className="font-heading text-center text-[clamp(0.625rem,3vw,6rem)] xs:leading-[25px] my-5 lg:text-nav-item lg:px-7">
                 There are many other projects done by me, But these projects focus mainly on the stack which I work on and built End-to-End by me. Head on to my GitHub profile to find more projects done by 
                 <a href="https://github.com/mohammedaarizofficial" target="_blank" className="underline text-blue-600"> me.</a>
             </div>
