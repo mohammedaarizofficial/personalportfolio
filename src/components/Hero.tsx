@@ -14,7 +14,7 @@ function Hero(){
             </div>
             <Tooltip>
                 <TooltipTrigger asChild>
-                    <img src={profileBanner} alt="profile photo"/>
+                    <img src={profileBanner} alt="profile photo" className="md:hover:scale-105 transition duration-500 ease-in-out"/>
                 </TooltipTrigger>
                 <TooltipContent className="font-heading lg:text-3xl lg:bg-tooltip lg:px-3 lg:py-2 lg:text-white" arrowClassName="lg:bg-tooltip lg:fill-tooltip">
                     <h1>Hi!</h1>

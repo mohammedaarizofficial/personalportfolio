@@ -14,8 +14,8 @@ function Worksection(){
     }, []);
 
     return(
-        <div className="flex flex-col justify-items-center text-[clamp(1.5rem,2vw,4rem)]" id="work">
-            <div className="font-heading lg:text-nav-title font-medium text-center">WORK</div>
+        <div className="flex flex-col justify-items-center text-[clamp(1.5rem,2vw,4rem)] mt-9" id="work">
+            <div className="font-heading text-[clamp(1.25rem,4.5vw,10rem)] font-medium text-center">WORK</div>
             <div className="hidden sm:flex justify-evenly justify-items-center flex-wrap lg:pt-[100px] mx-7 sm:mx-9 md:gap-8">
                 <Suspense fallback={<div>Loading...</div>}>
                     <Projectcard image={theDaily} title="The Daily." description="Everday NewsApp" link="https://newsapp-three-zeta.vercel.app/"/>

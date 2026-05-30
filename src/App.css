@@ -1,0 +1,147 @@
+.embla {
+  max-width: 40vw;
+  margin: 0 auto;
+
+  --slide-height: 50vw; /*min(40vw, )*/
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+}
+
+/* Viewport */
+.embla__viewport {
+  overflow: hidden;
+}
+
+/* Container */
+.embla__container {
+  display: flex;
+  flex-direction: column;
+
+  touch-action: pan-x pinch-zoom;
+
+  margin-top: calc(var(--slide-spacing) * -1);
+
+  height: calc(
+    var(--slide-height) +
+    var(--slide-spacing)
+  );
+}
+
+/* Slides */
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+
+  min-height: 0;
+
+  padding-top: var(--slide-spacing);
+
+  transform: translate3d(0, 0, 0);
+}
+
+/* Certificate Image */
+.embla__slide img {
+  width: 100%;
+  height: var(--slide-height);
+
+  object-fit: contain;
+
+
+  border-radius: 16px;
+
+  user-select: none;
+}
+
+/* Controls */
+.embla__controls {
+  display: grid;
+
+  grid-template-columns: auto 1fr;
+
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  margin-top: 1.5rem;
+}
+
+/* Previous / Next Buttons */
+.embla__buttons {
+  display: flex;
+
+  gap: 0.75rem;
+}
+
+/* Arrow Buttons */
+.embla__button {
+  width: 1rem;
+  height: 1.5rem;
+
+  border-radius: 9999px;
+
+  border: 2px solid #000000;
+
+  background-color: white;
+
+  color: black;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  transition: all 0.2s ease;
+}
+
+.embla__button:hover {
+  background-color: black;
+
+  color: white;
+}
+
+.embla__button--disabled {
+  opacity: 0.35;
+
+  cursor: not-allowed;
+}
+
+.embla__button__svg {
+  width: 40%;
+  height: 40%;
+}
+
+/* Dots */
+.embla__dots {
+  display: flex;
+
+  justify-content: flex-end;
+
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+/* Individual Dot */
+.embla__dot {
+  width: 0.3rem;
+  height: 0.3rem;
+
+  border-radius: 9999px;
+
+  border: 2px solid black;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+/* Selected Dot */
+.embla__dot--selected {
+  background-color: black;
+
+  transform: scale(1.2);
+}
