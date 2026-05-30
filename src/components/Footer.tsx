@@ -11,7 +11,7 @@ import mail from "../assets/mail.png";
 function Footer(){
     return(
         <div className="grid grid-cols-2 items-center shadow-footer justify-around py-2 mt-9" id="contact">
-            <div className="font-heading text-[clamp(1rem,4.5vw,10rem)] lg:text-hero-sub font-medium justify-self-start pl-[3vw]">CONTACT ME</div>
+            <div className="font-heading text-[clamp(1rem,4.5vw,10rem)] lg:text-hero-sub font-medium justify-self-start pl-[3vw]">CONTACT ME@</div>
             <div className="flex justify-self-end items-center pr-[3vw] gap-[3vw] justify-center content-center">
                 <Tooltip>
                     <TooltipTrigger asChild>
