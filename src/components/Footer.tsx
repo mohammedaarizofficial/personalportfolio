@@ -16,7 +16,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="https://www.instagram.com/mohd.aarizzz/?hl=en" target="_blank" className="cursor-pointer">
-                            <img src={insta} alt="instagram" loading="lazy" className="w-[clamp(1rem,2vw,3rem)] h-[clamp(1rem,2vw,3rem)]"/>
+                            <img src={insta} alt="instagram" loading="lazy" className="w-[clamp(1rem,3vw,2rem)] h-[clamp(1rem,3vw,2rem)]"/>
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">
@@ -27,7 +27,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="mailto:mohd.aariz.official@gmail.com" target="_blank" className="cursor-pointer">
-                            <img src={mail} alt="mail to Mohammed Aariz" loading="lazy" className="w-[clamp(1rem,2vw,3rem)] h-[clamp(1rem,2vw,3rem)]"/>
+                            <img src={mail} alt="mail to Mohammed Aariz" loading="lazy" className="w-[clamp(1rem,3vw,2rem)] h-[clamp(1rem,3vw,2rem)]"/>
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">
@@ -38,7 +38,7 @@ function Footer(){
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <a href="https://www.linkedin.com/in/mohammedaariz/" target="_blank" className="cursor-pointer">
-                            <img src={linkedin} alt="LinkedIn" className="w-[clamp(1rem,2vw,3rem)] h-[clamp(1rem,2vw,3rem)]" loading="lazy"/>
+                            <img src={linkedin} alt="LinkedIn" className="w-[clamp(1rem,3vw,2rem)] h-[clamp(1rem,3vw,2rem)]" loading="lazy"/>
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">
@@ -48,8 +48,8 @@ function Footer(){
 
                 <Tooltip>
                     <TooltipTrigger asChild>
-                        <a href="https://github.com/mohammedaarizofficial" target="_blank" className="cursor-pointer w-[clamp(1rem,2vw,3rem)] h-[clamp(1rem,2vw,3rem)]">
-                            <img src={github} alt="Github" className="w-[clamp(1rem,2vw,3rem)] h-[clamp(1rem,2vw,3rem)]"loading="lazy"/>
+                        <a href="https://github.com/mohammedaarizofficial" target="_blank" className="cursor-pointer w-[clamp(1rem,3vw,2rem)] h-[clamp(1rem,3vw,2rem)]">
+                            <img src={github} alt="Github" className="w-[clamp(1rem,3vw,2rem)] h-[clamp(1rem,3vw,2rem)]"loading="lazy"/>
                         </a>
                     </TooltipTrigger>
                     <TooltipContent className="fill-primary bg-primary text-white" arrowClassName="bg-primary fill-primary">

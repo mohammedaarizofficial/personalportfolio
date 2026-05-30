@@ -13,7 +13,7 @@ const SLIDES = [
 
 function Aboutmesection(){
     return(
-        <div className="flex flex-col lg:gap-[10px] items-center lg:py-[108px] mt-9" id="aboutme">
+        <div className="flex flex-col lg:gap-[10px] items-center mt-9" id="aboutme">
             <div className="font-heading text-[clamp(1.25rem,4.5vw,10rem)] mb-6">
                 ABOUT ME
             </div>
@@ -35,7 +35,7 @@ function Aboutmesection(){
                     className="absolute border w-[97px] h-[75px] top-[182px] left-[40px] lg:w-[347px] lg:h-[267px] lg:top-[430px] lg:left-[250px] lg:border-2 z-0 lg:border-primary lg:hover:z-50 lg:hover:scale-180 lg:hover:-translate-x-[50px] lg:hover:-translate-y-[240px] lg:transition-all lg:duration-300 lg:ease-in-out lg:will-change-transform cursor-pointer"/>
                 </div>
                 <EmblaCarousel slides={SLIDES} options={OPTIONS}/>
-                <div className="font-heading text-[clamp(0.500rem,2vw,4rem)] leading-[clamp(0.5rem,3.5vw,10rem)] font-normal text-center">I’m a Full-Stack Developer focused on building modern, interactive, and performance-driven digital experiences.<br/><br/>
+                <div className="font-heading text-[clamp(0.490rem,2vw,4rem)] leading-[clamp(0.8rem,3.5vw,2.6rem)] font-normal text-center pr-1">I’m a Full-Stack Developer focused on building modern, interactive, and performance-driven digital experiences.<br/><br/>
 
 From real-time chat platforms to finance trackers and news applications, I enjoy creating products that combine clean design with practical functionality.<br/><br/>
 
