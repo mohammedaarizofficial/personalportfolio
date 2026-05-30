@@ -1,4 +1,4 @@
-import React, {
+import {
   useCallback,
   useEffect,
   useState
@@ -38,7 +38,7 @@ export const usePrevNextButtons = (
     if (!emblaApi) return
 
     onSelect(emblaApi)
-    emblaApi.on('reinit', onSelect).on('select', onSelect)
+    emblaApi.on('reInit', onSelect).on('select', onSelect)
   }, [emblaApi, onSelect])
 
   return {
